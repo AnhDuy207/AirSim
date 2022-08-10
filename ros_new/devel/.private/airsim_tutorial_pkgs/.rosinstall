@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/duynguyen/IVSR/AirSim/ros_new/devel/.private/airsim_tutorial_pkgs/setup.sh

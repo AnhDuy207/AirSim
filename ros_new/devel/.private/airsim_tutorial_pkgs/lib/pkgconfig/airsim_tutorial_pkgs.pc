@@ -1,0 +1,8 @@
+prefix=/home/duynguyen/IVSR/AirSim/ros_new/devel/.private/airsim_tutorial_pkgs
+
+Name: airsim_tutorial_pkgs
+Description: Description of airsim_tutorial_pkgs
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: message_runtime roscpp std_msgs airsim_ros_pkgs

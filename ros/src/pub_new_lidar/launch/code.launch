@@ -1,0 +1,8 @@
+<launch>
+  <arg name="lidar_topic" default="/airsim_node/PX4/lidar/Lidar" />
+  <arg name="pose_topic" default="/camera/pose"/>
+
+  <node pkg="esdf_planner" name="px4_camera_pose_publisher" type="camera_pose_publisher.py" output="screen">
+    <arg name="odom_topic" default="$(arg odom_topic)" />
+  </node>
+</launch>
